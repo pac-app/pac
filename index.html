@@ -99,6 +99,24 @@
 .card-ncc .group-label,.card-ncc .open-button{color:#98741f;}
 .card-ncc .mark{color:#fff;background:linear-gradient(145deg,#e9c55e 0%,#c79a29 100%);}
 .card-ncc .mark b,.card-ncc .mark small{color:#fff;}
+
+/* PAC: Mũi tên nút mở ứng dụng – nét đậm, rõ và đồng bộ toàn bộ thẻ */
+.open-button .arrow {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  border-radius: 9px;
+}
+.open-button .arrow svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 </style></head>
 <body>
 <div class="page-shell">
@@ -159,7 +177,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbwEKnFaqnCHPbcU-CDGOE8hJ3m0TPhlXOh0hEAVhi25MrCwmYv_NePQBBVMV5JbnL11UQ/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-nvl" data-group="Kho Vận" data-search="Quản Lý Kho Nguyên Vật Liệu Nhập Xuất Tồn Lô Hạn Sử Dụng">
@@ -176,7 +194,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbyznuwJZKsBOrH2AcG62CAuMzoQSsqreeFTvmz9ItM_i41ZlkoPzb31dskXKJjpDU1oFQ/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-bb" data-group="Kho Vận" data-search="Quản Lý Kho Bao Bì Nhập Xuất Tồn Vị Trí">
@@ -193,7 +211,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbz_w0fYrDtUPTqpHqKd9LJiwak-kC5tJTlRERcsecjLBJ9EUxXr1t_NY8B5W5axIO0/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-khsx" data-group="Kế Hoạch" data-search="KHSX Kế Hoạch Sản Xuất Kế Hoạch Tuần Nhu Cầu Nguyên Liệu Lịch Sản Xuất">
@@ -210,7 +228,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbyoeke3l-VWIxRwFGN6n8jTnj6FpZ1jfls_rTDQebjeO5foL8QwXzAQgKUu6XiGBNCtBw/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-dmtp" data-group="Danh Mục" data-search="Danh Mục Thành Phẩm Mã TP Tên Thành Phẩm Kế Hoạch MaTP BOM">
@@ -227,7 +245,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbyKhAHCz5P-9hmgOiO7TPuh462LxzD6GyNNblCfK7FBgKxYfXO4C0l0_8mXFned7_x6MA/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-bt" data-group="Danh Mục" data-search="Danh Mục R&amp;D Mã NVL Mã BTP Định Mức BTP Định Mức TP BOM Công Thức">
@@ -244,7 +262,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbz9p6awmOrlL8W0Scec8R3j7WnWOy2oQc3uMuRXQZ13RZ1tBY3dw3GORiWDZB_kxRZV/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-qc" data-group="Danh Mục" data-search="QC Danh Mục Bao Bì Mã BB Định Mức TP Bao Bì Quy Cách">
@@ -261,7 +279,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbz_7Oqt1QY4rsrwrPfYDlDrFyMq1F_o9M0ZDCtgAgkUCkdgSPCuoQaMv9h9SvQleK8o/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-mh" data-group="Cung Ứng" data-search="Mua Hàng Nhà Cung Cấp Đơn Hàng Đề Nghị Tiến Độ">
@@ -278,7 +296,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbx6pM9dPeelt6pR_fmDD8d9nTfba0FLxq5IbM4S87mh3wzJG5q-EL-2QlocEzRE0Qct0A/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-sx" data-group="Sản Xuất" data-search="Sản Xuất Lệnh Sản Lượng Tiến Độ Máy">
@@ -295,7 +313,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbyX2PqrbfxgTBXbRl9Z5EAEF9-sUedtGr8nOSZapnWn5_B3qMV2DVzENUczIvYihF5tgQ/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-ktp" data-group="Kho Vận" data-search="Kho Thành Phẩm Thành Phẩm Nhập Kho Xuất Kho Tồn Kho Lô Hạn Sử Dụng">
@@ -332,7 +350,7 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbz9DrIMZq843nB_h5ez9W9VSGNdm6dFS5Cm_k9tVar993HKdl0ssfcJKvqtkN7ldoJIYg/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-report" data-group="Tổng Quan" data-search="Báo Cáo Điều Hành Tổng Hợp Chỉ Số Kho Mua hàng Sản Xuất Chất Lượng">
@@ -349,13 +367,13 @@
 </div>
 <button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbxHZjMOuixqX4iWgwRRLQmxjRJrEnRxhZBL98JICcuQDtGqtDLeSt-vRbFV4iQC2Qoa/exec')">
 <span>Mở Ứng Dụng</span>
-<span class="arrow">→</span>
+<span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span>
 </button>
 </article>
 <article class="card card-ncc" data-group="Kho Vận" data-search="Kho NCC Nhà Cung Cấp Nhập Xuất Tồn Nguyên Vật Liệu Bao Bì">
 <div class="card-top"><span class="mark mark-ncc"><b>🏬</b><small>NCC</small></span><span class="group-label">Kho Vận</span></div>
 <div class="card-copy"><h3>Kho NCC</h3><p title="Quản Lý Nhập, Xuất, Tồn Kho Nhà Cung Cấp.">Quản Lý Nhập, Xuất, Tồn Kho Nhà Cung Cấp.</p></div>
-<button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbykVVWd2TtIkuRupJlFH001zbs0Wf2RHHRXBfYFGglTs5jWyilg5Vwx6L33FwouECm3/exec')"><span>Mở Kho NCC</span><span class="arrow">→</span></button>
+<button class="open-button" onclick="openLink('https://script.google.com/macros/s/AKfycbykVVWd2TtIkuRupJlFH001zbs0Wf2RHHRXBfYFGglTs5jWyilg5Vwx6L33FwouECm3/exec')"><span>Mở Kho NCC</span><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false" aria-hidden="true"><path d="M4.5 12h14.5m-6-6 6 6-6 6"/></svg></span></button>
 </article>
 </div>
 <div class="empty" id="emptyState">Không Tìm Thấy Ứng Dụng Phù Hợp.</div>
